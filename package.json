@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start" :"ts-node ./index.ts",
-    "build" :"ts-node ./index.ts"
+    "build" :"CI=false ts-node ./index.ts"
   },
   "keywords": [],
   "author": "",
